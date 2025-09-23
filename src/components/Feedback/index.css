@@ -1,0 +1,43 @@
+.container,
+.feedbackClickedContainer {
+  background-color: #ffc0bb;
+  padding: 220px;
+  background-size: cover;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  align-items: center;
+}
+.cardItem {
+  display: flex;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.feedbackClicked {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thank {
+  font-weight: bold;
+}
+.emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+ul {
+  list-style-type: none;
+}
